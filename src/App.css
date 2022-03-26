@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body {
   background-image: linear-gradient(120deg, #65f6ea 0%, #479dff 100%);
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-
 }
 header {
   font-size: 2rem;
@@ -52,7 +50,7 @@ form button:hover {
 }
 
 .todo {
-  margin: 0.5rem;
+  margin: 1rem;
   background: white;
   font-size: 1.5rem;
   color: black;
