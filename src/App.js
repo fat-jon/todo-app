@@ -13,7 +13,7 @@ function App() {
   //Run once when the app starts
   useEffect(() => {
     getLocalTodos();
-  }, []); 
+  }, []);
 
   //Use effect
 
@@ -36,7 +36,6 @@ function App() {
     saveLocalTodos();
   }, [todos, status]);
 
-
   //Save to Local
   const saveLocalTodos = () => {
     localStorage.setItem("todos", JSON.stringify(todos));
@@ -54,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Todo App {inputText}</h1>
+        <h1>Todo App</h1>
       </header>
       <Form
         inputText={inputText}
